@@ -23,9 +23,9 @@ entity alu is
         W       :       integer := 32
     );
     port (
-        CONTROL	: in    std_logic_vector(3 downto 0);
-        SRC1	: in    std_logic_vector(W - 1 downto 0);
-        SRC2	: in    std_logic_vector(W - 1 downto 0);
+        CONTROL : in    std_logic_vector(3 downto 0);
+        SRC1    : in    std_logic_vector(W - 1 downto 0);
+        SRC2    : in    std_logic_vector(W - 1 downto 0);
         RESULT  : out   std_logic_vector(W - 1 downto 0);
         ZERO    : out   std_logic
     );
